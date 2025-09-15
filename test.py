@@ -1,0 +1,17 @@
+from task1 import Array
+
+fruit = Array()
+fruit.append('banana')
+print(fruit)
+fruit.append('apple')
+print(fruit)
+fruit.append('mango')
+print(fruit)
+fruit.insert(1, 'orange')
+print(fruit)
+fruit.remove('banana')
+print(fruit)
+fruit.pop(0)
+print(fruit)
+fruit.pop()
+print(fruit)
