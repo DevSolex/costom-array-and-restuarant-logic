@@ -23,8 +23,8 @@ class Array:
 #    def pop(self):
         del self.array[-1]
 
-    def pop(self, index: None):
-        if index == None:
+    def pop(self, index=-1):
+        if index == -1:
             del self.array[-1]
         else:
             del self.array[index]
@@ -32,7 +32,7 @@ class Array:
     def __str__(self):
         return str(self.array)
 
-
+# Array = Array()
 
 
 # Array.append(2)
