@@ -1,6 +1,6 @@
 class Array:
     
-    def __init__(self):
+    def __init__(self, array=[]):
         self.array = []
 
     def append(self, value):
